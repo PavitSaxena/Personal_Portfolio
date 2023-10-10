@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Mini portfolio website - Bedimcode</title>
+    </head>
+    <body>
+        <!--=============== HEADER PROFILE ===============-->
+        <header class="profile_container">
+            <!-- Theme Button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile_container grid">
+                <div class="profile_data">
+                    <div class="profile_border">
+                    <div class="profile_perfil">
+                        <img src="assets/img/1696403249457.png" alt="">
+                    </div>
+                </div>
+                <h2 class="profile_name">Pavit Saxena</h2>
+                <h3 class="profile_profession">Web Developer</h3>
+                <ul class="profile_social">
+                    <a href="https://www.instagram.com/pavit.saxena/" target="_blank" class="social_link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/pavit-saxena-5b4a6124a/" target="_blank" class="social_link">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                    <a href="https://github.com/PavitSaxena" target="_blank" class="social_link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </ul>
+              </div>
+              <div class="profile_info grid">
+                <div class="profile_info-group">
+                    <h3 class="profile_info-number">2</h3>
+                    <p class="profile_info-desc">Years of <br> work</p>
+                </div>
+                <div class="profile_info group">
+                    <h3 class="profile_info-number">+4 </h3>
+                    <p class="profile_info-desc">
+                        Completed <br> projects
+                    </p>
+                </div>
+                <!-- <div class="profile_info group">
+                    <h3 class="profile_info-number">+5</h3>
+                    <p class="profile_info-desc">
+                        Verified <br>Certificates
+                    </p>
+                </div> -->
+                <div class="profile_button">
+                    <a download="" href="assets/pdf/Pavit's Resume.pdf" class="button">
+                        Download Resume <i class="ri-download-line"></i>
+                    </a>
+                    <div class="profile_button-small">
+                        <a href="https://api.whatsapp.com/send?phone=8630255515&text=Hello, for more information!" target="_blank" class="button button_gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/pavit-saxena-5b4a6124a/" target="_blank"  class="button button_gray">
+                            <i class="ri-messenger-line"></i>
+                        </a>
+
+                    </div>
+                </div>
+              </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters_content">
+                    <button class="filters_button filter-tab-active" data-target="#projects">
+                        Projects
+                    </button>
+                    <button class="filters_button" data-target="#skills">
+                        Skills
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects_content grid filters_active" data-content id="projects">
+                          <article class="projects_card">
+                            <img src="assets/img/project1.jpg" alt="" class="projects_img">
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle">WEB</span>
+                                        <h3 class="projects_title">E-mobile Store</h3>
+                                            <a href="#" target="_blank" class="prijects_button button button_small">
+                                                <i class="ri-links-line"></i>
+                                            </a>
+                                        
+                                    
+                                </div>
+                            </div>
+                          </article>
+
+                          <article class="projects_card">
+                            <img src="assets/img/project2.jpg" alt="" class="projects_img">
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle">WEB</span>
+                                        <h3 class="projects_title">Mini Portfolio </h3>
+                                            <a href="#" target="_blank" class="prijects_button button button_small">
+                                                <i class="ri-links-line"></i>
+                                            </a>
+                                        
+                                    
+                                </div>
+                            </div>
+                          </article>
+
+                          <article class="projects_card">
+                            <img src="assets/img/project3.jpg" alt="" class="projects_img">
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle">WEB</span>
+                                        <h3 class="projects_title">Gym Web Page</h3>
+                                            <a href="#" target="_blank" class="prijects_button button button_small">
+                                                <i class="ri-links-line"></i>
+                                            </a>
+                                        
+                                    
+                                </div>
+                            </div>
+                          </article>
+
+                          <article class="projects_card">
+                            <img src="assets/img/project5.jpg" alt="" class="projects_img">
+                            <div class="projects_modal">
+                                <div>
+                                    <span class="projects_subtitle">WEB</span>
+                                        <h3 class="projects_title">Clothing Site </h3>
+                                            <a href="#" target="_blank" class="prijects_button button button_small">
+                                                <i class="ri-links-line"></i>
+                                            </a>
+                                        
+                                    
+                                </div>
+                            </div>
+                          </article>
+
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills_content grid  " data-content id="skills">
+<div class="skills_area">
+    <h3 class="skills_title">Frontend Developer</h3>
+
+    <div class="skills_box">
+
+        <div class="skills_group">
+            <div class="skills_data">
+                <i class="ri-checkbox-circle-line"></i>
+
+                <div>
+                    <h3 class="skills_name">HTML</h3>
+                    <span class="skills_level">Intermidate</span>
+                </div>
+            </div>
+            <div class="skills_data">
+                <i class="ri-checkbox-circle-line"></i>
+
+                <div>
+                    <h3 class="skills_name">CSS</h3>
+                    <span class="skills_level">Intermediate</span>
+                </div>
+            </div>
+
+            <div class="skills_data">
+                <i class="ri-checkbox-circle-line"></i>
+
+                <div>
+                    <h3 class="skills_name">JavaScript</h3>
+                    <span class="skills_level">Basic</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="skills_group">
+            <div class="skills_data">
+                <i class="ri-checkbox-circle-line"></i>
+
+                <div>
+                    <h3 class="skills_name">C</h3>
+                    <span class="skills_level">Intermidate</span>
+                </div>
+            </div>
+            <div class="skills_data">
+                <i class="ri-checkbox-circle-line"></i>
+
+                <div>
+                    <h3 class="skills_name">C++</h3>
+                    <span class="skills_level">Intermediate</span>
+                </div>
+            </div>
+
+            <div class="skills_data">
+                <i class="ri-checkbox-circle-line"></i>
+
+                <div>
+                    <h3 class="skills_name">
+                        Git
+                    </h3>
+                    <span class="skills_level">Basic</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="skills_area">
+    <h3 class="skills_title">Academics</h3>
+
+    <div class="skills_box">
+
+        <div class="skills_group">
+            <div class="skills_data">
+                <i class="ri-checkbox-circle-line"></i>
+
+                <div>
+                    <h3 class="skills_name">Data Structure</h3>
+                    <span class="skills_level">Intermidate</span>
+                </div>
+            </div>
+            <div class="skills_data">
+                <i class="ri-checkbox-circle-line"></i>
+
+                <div>
+                    <h3 class="skills_name">Operating System</h3>
+                    <span class="skills_level">Intermediate</span>
+                </div>
+            </div>
+
+            <div class="skills_data">
+                <i class="ri-checkbox-circle-line"></i>
+
+                <div>
+                    <h3 class="skills_name">DBMS</h3>
+                    <span class="skills_level">Basic</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="skills_group">
+            <div class="skills_data">
+                <i class="ri-checkbox-circle-line"></i>
+
+                <div>
+                    <h3 class="skills_name">Computer Organization</h3>
+                    <span class="skills_level">Basic</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer_copy">
+                &#169; Pavit Saxena . All Rights Reserved
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
